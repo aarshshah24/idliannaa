@@ -1,0 +1,114 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  body {
+    background: #fff8f0;
+    color: #333;
+    scroll-behavior: smooth;
+  }
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #efb968;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+  header img {
+    height: 75px;
+  }
+  nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: #333;
+    font-weight: 600;
+  }
+  .hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4rem 2rem;
+    background-color: #ffe7cc;
+    flex-wrap: wrap;
+  }
+  .hero-text {
+    max-width: 500px;
+  }
+  .hero h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  .hero p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+  }
+  .hero button {
+    background-color: #ff6a00;
+    color: white;
+    border: none;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s;
+  }
+  .hero button:hover {
+    background-color: #e35c00;
+  }
+  .hero img {
+    max-width: 600px;
+    border-radius: 1rem;
+  }
+  .menu, .about, .contact {
+    padding: 4rem 2rem;
+    text-align: center;
+  }
+  .menu h2, .about h2, .contact h2 {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+  .menu-items {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+  }
+  .item {
+    background: #fff;
+    padding: 1rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    width: 200px;
+  }
+  .item img {
+    width: 100%;
+    border-radius: 0.5rem;
+  }
+  .item h3 {
+    margin: 0.5rem 0;
+  }
+  footer {
+    background: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+  }
+  table.menu-table {
+    margin: 2rem auto;
+    border-collapse: collapse;
+    width: 60%;
+  }
+  table.menu-table th, table.menu-table td {
+    padding: 1rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+  }
+  table.menu-table th {
+    background-color: #ffddb0;
+  }
